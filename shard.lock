@@ -1,16 +1,16 @@
 version: 1.0
 shards:
   callback:
-    github: mosop/callback
-    version: 0.6.3
+    github: bcardiff/callback
+    commit: 8dc1c3b0f461332fceb4db5c276c7bfcfbe38481
 
   cli:
-    github: amberframework/cli
-    version: 0.7.0
+    github: bcardiff/cli
+    commit: 785086069823569f67302465d17de4b1286536a0
 
   optarg:
-    github: mosop/optarg
-    version: 0.5.8
+    github: bcardiff/optarg
+    commit: c4ed4d4b84521c6bf5121af0ee277b591b9ce30d
 
   string_inflection:
     github: mosop/string_inflection
