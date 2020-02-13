@@ -1,6 +1,6 @@
 module Cry
   class CodeRunner
-    private getter filename_seed : Int64 = Time.now.to_unix_ms
+    private getter filename_seed : Int64 = Time.local.to_unix_ms
     private getter code : String
     private getter editor : String
     private getter back : Int32
