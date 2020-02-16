@@ -1,5 +1,5 @@
 name: cry
-version: 0.4.1
+version: 0.4.2
 
 authors:
   - Isaac Sloan <isaac@isaacsloan.com>
@@ -9,6 +9,6 @@ targets:
   cry:
     main: src/cry.cr
 
-crystal: 0.29.0
+crystal: 0.33.0
 
 license: MIT
