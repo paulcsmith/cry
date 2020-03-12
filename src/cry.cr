@@ -1,1 +1,3 @@
+require "colorize"
+
 require "./cry/*"

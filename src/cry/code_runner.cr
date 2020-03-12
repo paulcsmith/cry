@@ -22,6 +22,7 @@ module Cry
         end
 
         break unless File.exists?(filename)
+        puts "Compiling Code...\n\n".colorize.dim
 
         result = `crystal eval 'require "#{filename}";'`
         log_result(result)
