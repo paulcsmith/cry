@@ -22,6 +22,7 @@ module Cry
         end
 
         break unless File.exists?(filename)
+        puts "Compiling Code...\n\n"
 
         result = `crystal eval 'require "#{filename}";'`
         log_result(result)
