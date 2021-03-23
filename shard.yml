@@ -9,6 +9,6 @@ targets:
   cry:
     main: src/cry.cr
 
-crystal: 0.33.0
+crystal: ">= 0.33.0, < 2.0.0"
 
 license: MIT
